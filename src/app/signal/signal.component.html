@@ -1,14 +1,16 @@
-<h1>Signal (Change Detection)</h1>
+<h1>Signals (Change Detection)</h1>
 
 <div id="counter">
-  <p id="counter-output">Counter: {{ counter }}</p>
+  <p id="counter-output">Counter: {{ counter() }}</p>
   <div id="counter-btns">
     <button (click)="decrement()">Decrement</button>
     <button (click)="increment()">Increment</button>
   </div>
 </div>
 
-<h2>Action Log</h2>
+<h2>Action Log {{ total() === 0 ? '' : total() }}</h2>
 <ol id="log">
-  <li *ngFor="let action of actions">{{ action }}</li>
+  <li *ngFor="let action of actions() | slice : -7; let i = index; let last = last" [ngClass]="{ 'last-log': last }">
+    {{ action }}
+  </li>
 </ol>
