@@ -46,6 +46,17 @@ npx degit github:user/repo#branch-name <folder-name>
 ```
 - master branch is default.
 
+### Cloning this project with skeleton
+
+```bash
+npx degit github:actionanand/ng16-signal-milestone-release#1-skeleton-ngv16 angular-proj-name
+```
+
+```bash
+git clone https://github.com/actionanand/ng16-signal-milestone-release.git --branch 1-skeleton-ngv16 angular-proj-name
+```
+
+
 ## Resources
 
 1. [Angular v16 is here! - Official](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)
