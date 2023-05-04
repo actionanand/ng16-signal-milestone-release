@@ -2,15 +2,15 @@ export const NavBarLinks = [
   {
     navbar: [
       {
-        label: 'Angular Signal & v16',
+        label: 'Angular v16 Project',
         values: [
           {
             label: 'Default',
             value: '',
           },
           {
-            label: 'Signal',
-            value: '/signal',
+            label: 'Test',
+            value: '/test',
           },
         ],
       },

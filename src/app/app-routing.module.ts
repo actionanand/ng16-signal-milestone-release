@@ -6,12 +6,7 @@ const routes: Routes = [
     path: '',
     pathMatch: 'full',
     loadComponent: () => import('./default/default.component').then((m) => m.DefaultComponent),
-    title: 'Default Change Detection',
-  },
-  {
-    path: 'signal',
-    loadComponent: () => import('./signal/signal.component').then((m) => m.DefaultComponent),
-    title: 'Signal Change Detection',
+    title: 'Angular Default Home',
   },
   { path: '**', redirectTo: '' },
 ];

@@ -69,7 +69,7 @@
             },
             "development": {
               "browserTarget": "ng16-signal-milestone-release:build:development",
-              "port": 2305
+              "port": 4213
             }
           },
           "defaultConfiguration": "development"
