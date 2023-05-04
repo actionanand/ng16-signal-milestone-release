@@ -62,7 +62,8 @@ git clone https://github.com/actionanand/ng16-signal-milestone-release.git --bra
 
 1. [Angular v16 is here! - Official](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)
 2. [What's new in Angular 16](https://dev.to/this-is-angular/whats-new-in-angular-16-375b)
-3. [Lazy loading services in Angular. What?! Yes, we can.](https://itnext.io/lazy-loading-services-in-angular-what-yes-we-can-cfbaf586d54e)
+3. [🅰️ New Angular 16 is Going Big in 2023: Everything You Need to Know](https://easy-web.medium.com/new-angular-16-is-going-big-in-2023-everything-you-need-to-know-3fc62b227aab)
+4. [Lazy loading services in Angular. What?! Yes, we can.](https://itnext.io/lazy-loading-services-in-angular-what-yes-we-can-cfbaf586d54e)
 
 ![image](https://user-images.githubusercontent.com/46064269/236193114-2aeda878-f4d1-43ba-aeb2-4aaf7b3c7495.png)
 
