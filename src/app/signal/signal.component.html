@@ -8,9 +8,9 @@
   </div>
 </div>
 
-<h2>Action Log</h2>
+<h2>Action Log {{ total() === 0 ? '' : total() }}</h2>
 <ol id="log">
   <li *ngFor="let action of actions() | slice : -7; let i = index; let last = last" [ngClass]="{ 'last-log': last }">
-    {{ action }} {{total()}}
+    {{ action }}
   </li>
 </ol>
