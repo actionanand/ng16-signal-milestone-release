@@ -52,6 +52,8 @@ npx degit github:user/repo#branch-name <folder-name>
 2. [What's new in Angular 16](https://dev.to/this-is-angular/whats-new-in-angular-16-375b)
 3. [Lazy loading services in Angular. What?! Yes, we can.](https://itnext.io/lazy-loading-services-in-angular-what-yes-we-can-cfbaf586d54e)
 
+![image](https://user-images.githubusercontent.com/46064269/236193114-2aeda878-f4d1-43ba-aeb2-4aaf7b3c7495.png)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
