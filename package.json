@@ -5,12 +5,17 @@
   "author": {
     "name": "Anand Raja"
   },
+  "homepage": "http://actionanand.github.io/your-repo-name",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "copy-error-page": "cp dist/index.html dist/404.html",
+    "build-gh": "ng build --output-path dist --base-href /your-repo-name/",
+    "predeploy": "yarn run build-gh && yarn run copy-error-page",
+    "deploy": "gh-pages -d dist"
   },
   "private": false,
   "dependencies": {
