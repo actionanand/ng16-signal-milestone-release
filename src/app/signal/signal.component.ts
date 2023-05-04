@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, signal } from '@angular/core';
+import { Component, computed, signal, effect } from '@angular/core';
 
 @Component({
   selector: 'app-signal',
@@ -10,7 +10,13 @@ import { Component, signal } from '@angular/core';
 })
 export class DefaultComponent {
   actions = signal<string[]>([]);
-  counter = signal(0);
+  counter = signal<number>(0);
+
+  total = computed(() => this.actions().length);
+
+  constructor() {
+    effect(() => console.log(this.counter()));
+  }
 
   increment() {
     // this.counter.update((oldCounterVal) => oldCounterVal + 1);

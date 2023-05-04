@@ -11,6 +11,6 @@
 <h2>Action Log</h2>
 <ol id="log">
   <li *ngFor="let action of actions() | slice : -7; let i = index; let last = last" [ngClass]="{ 'last-log': last }">
-    {{ action }}
+    {{ action }} {{total()}}
   </li>
 </ol>
