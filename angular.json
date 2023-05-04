@@ -68,7 +68,8 @@
               "browserTarget": "ng16-signal-milestone-release:build:production"
             },
             "development": {
-              "browserTarget": "ng16-signal-milestone-release:build:development"
+              "browserTarget": "ng16-signal-milestone-release:build:development",
+              "port": 2305
             }
           },
           "defaultConfiguration": "development"
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
