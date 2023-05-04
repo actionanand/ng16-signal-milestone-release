@@ -22,6 +22,50 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Cloning Guide
+
+### clone only the remote primary HEAD (default: origin/master)
+```bash
+git clone <url> --single-branch
+```
+
+### Only specific branch
+
+```bash
+git clone <url> --branch <branch> --single-branch [<folder>]
+```
+
+```bash
+git clone <url> --branch <branch> 
+```
+
+### Cloning repositories using degit
+
+```bash
+npx degit github:user/repo#branch-name <folder-name>
+```
+
+- master branch is default.
+
+### Cloning this project with skeleton
+
+```bash
+npx degit github:actionanand/ng16-signal-milestone-release#1-skeleton-ngv16 angular-proj-name
+```
+
+```bash
+git clone https://github.com/actionanand/ng16-signal-milestone-release.git --branch 1-skeleton-ngv16 angular-proj-name
+```
+
+
+## Resources
+
+1. [Angular v16 is here! - Official](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)
+2. [What's new in Angular 16](https://dev.to/this-is-angular/whats-new-in-angular-16-375b)
+3. [Lazy loading services in Angular. What?! Yes, we can.](https://itnext.io/lazy-loading-services-in-angular-what-yes-we-can-cfbaf586d54e)
+
+![image](https://user-images.githubusercontent.com/46064269/236193114-2aeda878-f4d1-43ba-aeb2-4aaf7b3c7495.png)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
