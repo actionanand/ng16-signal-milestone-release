@@ -3,8 +3,12 @@
 # resource: https://prettier.io/docs/en/configuration.html
 trailingComma: 'all'
 tabWidth: 2
+useTabs: false
 semi: true
 singleQuote: true
+bracketSpacing: true
+bracketSameLine: true
+arrowParens: 'avoid'
 printWidth: 120
 overrides:
   - files: 
