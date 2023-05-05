@@ -22,6 +22,11 @@
     "format:all": "prettier --config ./.prettierrc --write \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
     "lint": "ng lint"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run precommit"
+    }
+  },
   "private": false,
   "dependencies": {
     "@angular/animations": "^16.0.0",
