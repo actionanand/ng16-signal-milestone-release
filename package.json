@@ -16,6 +16,7 @@
     "build-gh": "ng build --output-path dist --base-href /ng16-signal-milestone-release/",
     "predeploy": "yarn run build-gh && yarn run copy-error-page",
     "deploy": "gh-pages -d dist",
+    "precommit": "run-s format:fix lint",
     "format:fix": "pretty-quick --staged",
     "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
     "format:all": "prettier --config ./.prettierrc --write \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
@@ -23,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "run-s format:fix lint"
+      "pre-commit": "yarn run precommit"
     }
   },
   "private": false,
