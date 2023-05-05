@@ -6,5 +6,8 @@ node_modules
 dist
 dest
 reports
-yarn.lock
+
+# Ignore files
+*.lock
 package-lock.json
+yarn.lock
