@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, signal, effect } from '@angular/core';
 
-// prettier-ignore
 @Component({
   selector: 'app-signal',
   templateUrl: './signal.component.html',
@@ -26,7 +25,7 @@ export class DefaultComponent {
   }
 
   decrement() {
-    this.counter.update((oldCounterVal) => oldCounterVal - 1);
+    this.counter.update(oldCounterVal => oldCounterVal - 1);
     this.actions.update(oldActions => [...oldActions, 'DECREMENT']);
   }
 }
