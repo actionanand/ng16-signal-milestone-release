@@ -25,6 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Cloning Guide
 
 ### clone only the remote primary HEAD (default: origin/master)
+
 ```bash
 git clone <url> --single-branch
 ```
@@ -36,7 +37,7 @@ git clone <url> --branch <branch> --single-branch [<folder>]
 ```
 
 ```bash
-git clone <url> --branch <branch> 
+git clone <url> --branch <branch>
 ```
 
 ### Cloning repositories using degit
@@ -57,6 +58,21 @@ npx degit github:actionanand/ng16-signal-milestone-release#1-skeleton-ngv16 angu
 git clone https://github.com/actionanand/ng16-signal-milestone-release.git --branch 1-skeleton-ngv16 angular-proj-name
 ```
 
+## Automate using `Prettier`, `Es Lint` and `Husky`
+
+1. Install the compatible node version
+
+```bash
+  nvm install v16.20.0
+```
+
+2. Install and Configure Prettier
+
+```bash
+  yarn add prettier -D
+```
+
+-
 
 ## Resources
 
