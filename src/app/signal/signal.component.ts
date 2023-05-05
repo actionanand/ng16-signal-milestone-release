@@ -21,11 +21,11 @@ export class DefaultComponent {
   increment() {
     // this.counter.update((oldCounterVal) => oldCounterVal + 1);
     this.counter.set(this.counter() + 1);
-    this.actions.mutate((oldActions) => oldActions.push('INCREMENT'));
+    this.actions.mutate(oldActions => oldActions.push('INCREMENT'));
   }
 
   decrement() {
-    this.counter.update((oldCounterVal) => oldCounterVal - 1);
-    this.actions.update((oldActions) => [...oldActions, 'DECREMENT']);
+    this.counter.update(oldCounterVal => oldCounterVal - 1);
+    this.actions.update(oldActions => [...oldActions, 'DECREMENT']);
   }
 }
