@@ -1,0 +1,10 @@
+{
+  // "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "files.watcherExclude": {
+    "**/.cache/**": true,
+    "**/.git/**": true,
+    "**/node_modules/**": true
+  }
+}
