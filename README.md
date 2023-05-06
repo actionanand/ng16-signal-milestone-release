@@ -244,6 +244,7 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 5. [Lazy loading services in Angular. What?! Yes, we can.](https://itnext.io/lazy-loading-services-in-angular-what-yes-we-can-cfbaf586d54e)
 6. [Angular 🚦 Signals 📡 (The future of Angular)](https://itnext.io/angular-signals-the-future-of-angular-395a69e60062)
 7. [Signals in Angular – How to Write More Reactive Code](https://www.freecodecamp.org/news/angular-signals/)
+8. [Upgrading an enterprise app to Angular 16](https://itnext.io/upgrading-an-enterprise-app-to-angular-16-4a92b1b29906)
 
 ![image](https://user-images.githubusercontent.com/46064269/236193114-2aeda878-f4d1-43ba-aeb2-4aaf7b3c7495.png)
 
