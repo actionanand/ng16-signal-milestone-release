@@ -4,6 +4,6 @@
 
 tasks:
   - name: Setup Angular v16 env with yarn
-    before: nvm install v16.20.0
+    before: nvm install v18.16.0
     init: yarn install && yarn run build
     command: yarn run start
